@@ -1,10 +1,10 @@
 # EIE-LaTeX
 LaTeX style and class files for the Wits School of Electrical &amp; Information Engineering
 
-## E&amp;IE Course Brief and Outline 
+## E&amp;IE Course Brief and Outline
 The class file is contained within the `cbo` directory. Also available is a template file (`eie-cbo-template`) which uses the class file and offers guidance, via comments, for completing the various sections.
 
-The `eie-cbo-example`, and its corresponding LaTeX file provide an example of a completed CBO.
+An [example CBO](https://github.com/witseie/eie-latex/blob/master/cbo/eie-cbo-example.pdf), along with its corresponding LaTeX source file, is also provided.
 
 If you have any suggestions for improving the style file and/or example, please notify me (@stephenlevitt), or make a pull-request with your changes.
 
