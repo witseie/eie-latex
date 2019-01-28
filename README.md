@@ -28,4 +28,4 @@ The file you will need to "install" is:
     2.  Select the `General` tab
     3.  Click `Refresh FNDB`
 
-You should now be able to use the class for your CBO.
+You should now be able to use the class file for your CBO.
