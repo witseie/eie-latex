@@ -9,6 +9,7 @@
 \RequirePackage{multirow}		% multi-line table rows
 \RequirePackage{url}      	% typeset URLs
 \RequirePackage{graphicx} 	% graphics
+\RequirePackage[british]{babel}
 
 \PassOptionsToClass{a4paper}{article}
 \AtEndOfClass{\setlength{\topmargin}{-3mm}
@@ -86,6 +87,18 @@
     colorlinks,
     urlcolor={blue}
 }%
+
+% Use \autoref{label} for cross-referencing sections
+\addto\extrasbritish{%
+  \renewcommand{\sectionautorefname}{Section}%
+}
+\addto\extrasbritish{%
+  \renewcommand{\subsectionautorefname}{Section}%
+}
+\addto\extrasbritish{%
+  \renewcommand{\subsubsectionautorefname}{Section}%
+}
+
 \newcommand{\email}[1]{\href{mailto:#1}{#1}} % email hyperlinks
 
 \endinput
